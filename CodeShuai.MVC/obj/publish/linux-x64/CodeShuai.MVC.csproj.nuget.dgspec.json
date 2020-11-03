@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj": {}
+  },
+  "projects": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
+        "projectName": "CodeShuai.Models",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj",
+        "projectName": "CodeShuai.MVC",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\obj\\publish\\linux-x64\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
+              },
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+        "projectName": "CodeShuai.MySql",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

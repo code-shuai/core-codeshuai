@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>2db81957-ad43-483e-9ead-909e829e6ed4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeShuai.Models\CodeShuai.Models.csproj" />
+    <ProjectReference Include="..\CodeShuai.MySql\CodeShuai.MySql.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\bin\Release\netcoreapp3.1\CodeShuai.Models.deps.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\bin\Release\netcoreapp3.1\CodeShuai.Models.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\bin\Release\netcoreapp3.1\CodeShuai.Models.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.AssemblyInfoInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.AssemblyInfo.cs
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.csproj.CoreCompileInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Models\obj\Release\netcoreapp3.1\CodeShuai.Models.csprojAssemblyReference.cache

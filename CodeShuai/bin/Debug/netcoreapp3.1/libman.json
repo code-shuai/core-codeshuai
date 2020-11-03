@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "vue@3.0.1",
+      "destination": "wwwroot/lib/vue/"
+    },
+    {
+      "library": "twitter-bootstrap@4.5.3",
+      "destination": "wwwroot/twitter-bootstrap/"
+    },
+    {
+      "library": "bootstrap-vue@2.17.3",
+      "destination": "wwwroot/bootstrap-vue/"
+    },
+    {
+      "library": "extjs@6.2.0",
+      "destination": "wwwroot/ext"
+    }
+  ]
+}

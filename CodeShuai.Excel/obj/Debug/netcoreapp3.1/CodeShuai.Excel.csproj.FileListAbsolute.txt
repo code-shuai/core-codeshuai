@@ -1,0 +1,9 @@
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\bin\Debug\netcoreapp3.1\CodeShuai.Excel.deps.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\bin\Debug\netcoreapp3.1\CodeShuai.Excel.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\bin\Debug\netcoreapp3.1\CodeShuai.Excel.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.AssemblyInfoInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.AssemblyInfo.cs
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.csproj.CoreCompileInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.csprojAssemblyReference.cache
