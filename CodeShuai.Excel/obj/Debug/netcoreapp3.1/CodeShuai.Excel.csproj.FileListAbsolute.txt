@@ -6,4 +6,3 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.csproj.CoreCompileInputs.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.pdb
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.Excel\obj\Debug\netcoreapp3.1\CodeShuai.Excel.csprojAssemblyReference.cache

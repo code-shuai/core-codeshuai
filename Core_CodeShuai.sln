@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeShuai.Excel", "CodeShua
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeShuai.SQLServer", "CodeShuai.SQLServer\CodeShuai.SQLServer.csproj", "{085D7A94-4EF8-4280-91A1-EF5E963E4349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeShuai.Models", "CodeShuai.Models\CodeShuai.Models.csproj", "{AA5DAF3A-1DF3-4404-AF8C-A9519B50F711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeShuai.Models", "CodeShuai.Models\CodeShuai.Models.csproj", "{AA5DAF3A-1DF3-4404-AF8C-A9519B50F711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeShuai.Angular", "CodeShuai.Angular\CodeShuai.Angular.csproj", "{2438DD5F-9752-418C-89E8-B46A85D05FD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AA5DAF3A-1DF3-4404-AF8C-A9519B50F711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5DAF3A-1DF3-4404-AF8C-A9519B50F711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5DAF3A-1DF3-4404-AF8C-A9519B50F711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2438DD5F-9752-418C-89E8-B46A85D05FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2438DD5F-9752-418C-89E8-B46A85D05FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2438DD5F-9752-418C-89E8-B46A85D05FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2438DD5F-9752-418C-89E8-B46A85D05FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
