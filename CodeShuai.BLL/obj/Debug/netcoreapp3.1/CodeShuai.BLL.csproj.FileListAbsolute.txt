@@ -1,0 +1,16 @@
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.BLL.deps.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.BLL.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.BLL.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.Models.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.MySql.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.MySql.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\bin\Debug\netcoreapp3.1\CodeShuai.Models.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.csprojAssemblyReference.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.AssemblyInfoInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.AssemblyInfo.cs
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.csproj.CoreCompileInputs.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.csproj.CopyComplete
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.BLL\obj\Debug\netcoreapp3.1\CodeShuai.BLL.pdb

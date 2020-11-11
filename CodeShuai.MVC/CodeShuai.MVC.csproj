@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeShuai.Models\CodeShuai.Models.csproj" />
-    <ProjectReference Include="..\CodeShuai.MySql\CodeShuai.MySql.csproj" />
+    <ProjectReference Include="..\CodeShuai.BLL\CodeShuai.BLL.csproj" />
   </ItemGroup>
 
 </Project>

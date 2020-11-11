@@ -1,7 +1,6 @@
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\libman.json
-E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\CodeShuai.exe
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\CodeShuai.deps.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\bin\Debug\netcoreapp3.1\CodeShuai.runtimeconfig.json
@@ -18,4 +17,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\staticwebassets\
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\CodeShuai.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\CodeShuai.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\CodeShuai.genruntimeconfig.cache
-E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\CodeShuai.csprojAssemblyReference.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai\obj\Debug\netcoreapp3.1\scopedcss\bundle\CodeShuai.styles.css

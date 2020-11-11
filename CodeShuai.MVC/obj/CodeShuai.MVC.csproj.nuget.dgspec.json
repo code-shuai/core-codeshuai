@@ -4,6 +4,71 @@
     "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj": {}
   },
   "projects": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
+        "projectName": "CodeShuai.BLL",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
+              },
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,6 +95,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +107,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -86,12 +153,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
-                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
-              },
-              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
-                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
               }
             }
           }
@@ -104,6 +169,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -122,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -152,6 +218,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
                 "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
@@ -167,6 +234,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -192,7 +260,65 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
+        "projectName": "CodeShuai.SQLServer",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1563,6 +1563,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CodeShuai.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CodeShuai.MySql": "1.0.0",
+          "CodeShuai.SQLServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CodeShuai.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeShuai.BLL.dll": {}
+        }
+      },
       "CodeShuai.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1586,6 +1600,16 @@
         },
         "runtime": {
           "bin/placeholder/CodeShuai.MySql.dll": {}
+        }
+      },
+      "CodeShuai.SQLServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CodeShuai.SQLServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodeShuai.SQLServer.dll": {}
         }
       }
     }
@@ -5657,6 +5681,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "CodeShuai.BLL/1.0.0": {
+      "type": "project",
+      "path": "../CodeShuai.BLL/CodeShuai.BLL.csproj",
+      "msbuildProject": "../CodeShuai.BLL/CodeShuai.BLL.csproj"
+    },
     "CodeShuai.Models/1.0.0": {
       "type": "project",
       "path": "../CodeShuai.Models/CodeShuai.Models.csproj",
@@ -5666,12 +5695,16 @@
       "type": "project",
       "path": "../CodeShuai.MySql/CodeShuai.MySql.csproj",
       "msbuildProject": "../CodeShuai.MySql/CodeShuai.MySql.csproj"
+    },
+    "CodeShuai.SQLServer/1.0.0": {
+      "type": "project",
+      "path": "../CodeShuai.SQLServer/CodeShuai.SQLServer.csproj",
+      "msbuildProject": "../CodeShuai.SQLServer/CodeShuai.SQLServer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CodeShuai.Models >= 1.0.0",
-      "CodeShuai.MySql >= 1.0.0"
+      "CodeShuai.BLL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5704,12 +5737,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
-              "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
-            },
-            "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
-              "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
+            "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+              "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
             }
           }
         }
@@ -5722,6 +5753,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -5740,7 +5772,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

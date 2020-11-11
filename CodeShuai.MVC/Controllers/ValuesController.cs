@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CodeShuai.BLL;
 using CodeShuai.Models;
 using CodeShuai.MySql;
 using Microsoft.AspNetCore.Http;
@@ -12,18 +13,19 @@ namespace CodeShuai.MVC.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        DapperService ds = new DapperService();
+        Helper h = new Helper();
+        
+        [Route("adduser")]
         [HttpGet]
-        [Route("get")]
-        public List<User> Get()
+        public int AddUser(string acc,string pwd)
         {
-            return ds.GetUserList();
+            return h.AddUser(new User { Account = acc, Password = pwd });
         }
-        [Route("getuserid")]
         [HttpGet]
-        public int GetUserID()
+        [Route("uPwd")]
+        public int UpdatePassword(int id,string pwd)
         {
-            return ds.GetUserList()[0].ID;
+            return h.UpdatePwd(new User { ID = id, Password = pwd });
         }
     }
 }

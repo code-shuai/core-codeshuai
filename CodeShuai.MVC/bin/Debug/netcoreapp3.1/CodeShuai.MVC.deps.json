@@ -24,8 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "CodeShuai.MVC/1.0.0": {
         "dependencies": {
-          "CodeShuai.Models": "1.0.0",
-          "CodeShuai.MySql": "1.0.0",
+          "CodeShuai.BLL": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1312,6 +1311,18 @@
           "ref/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CodeShuai.BLL/1.0.0": {
+        "dependencies": {
+          "CodeShuai.MySql": "1.0.0",
+          "CodeShuai.SQLServer": "1.0.0"
+        },
+        "runtime": {
+          "CodeShuai.BLL.dll": {}
+        },
+        "compile": {
+          "CodeShuai.BLL.dll": {}
+        }
+      },
       "CodeShuai.Models/1.0.0": {
         "runtime": {
           "CodeShuai.Models.dll": {}
@@ -1331,6 +1342,14 @@
         },
         "compile": {
           "CodeShuai.MySql.dll": {}
+        }
+      },
+      "CodeShuai.SQLServer/1.0.0": {
+        "runtime": {
+          "CodeShuai.SQLServer.dll": {}
+        },
+        "compile": {
+          "CodeShuai.SQLServer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3656,12 +3675,22 @@
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
+    "CodeShuai.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CodeShuai.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CodeShuai.MySql/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeShuai.SQLServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
