@@ -47,9 +47,9 @@ namespace CodeShuai.BLL
             return DapperService<User>.ExcuteSqlString("update user set Password=@Password where ID=@ID",u);
         }
 
-        public int AddBill()
-        {
+        //public int AddBill()
+        //{
 
-        }
+        //}
     }
 }

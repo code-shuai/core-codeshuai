@@ -6,3 +6,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.SQLServer\obj\Debug\netcoreapp3.1\CodeSh
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.SQLServer\obj\Debug\netcoreapp3.1\CodeShuai.SQLServer.csproj.CoreCompileInputs.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.SQLServer\obj\Debug\netcoreapp3.1\CodeShuai.SQLServer.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.SQLServer\obj\Debug\netcoreapp3.1\CodeShuai.SQLServer.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.SQLServer\obj\Debug\netcoreapp3.1\CodeShuai.SQLServer.csprojAssemblyReference.cache

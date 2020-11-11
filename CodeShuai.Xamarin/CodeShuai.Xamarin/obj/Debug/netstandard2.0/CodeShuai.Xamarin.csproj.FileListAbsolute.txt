@@ -16,3 +16,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.Xamarin\CodeShuai.Xamarin\obj\Debug\nets
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Xamarin\CodeShuai.Xamarin\obj\Debug\netstandard2.0\CodeShuai.Xamarin.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Xamarin\CodeShuai.Xamarin\obj\Debug\netstandard2.0\ref\CodeShuai.Xamarin.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Xamarin\CodeShuai.Xamarin\obj\Debug\netstandard2.0\CodeShuai.Xamarin.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Xamarin\CodeShuai.Xamarin\obj\Debug\netstandard2.0\CodeShuai.Xamarin.csprojAssemblyReference.cache

@@ -34,3 +34,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.Razor\obj\Debug\netcoreapp3.1\CodeShuai.
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Razor\obj\Debug\netcoreapp3.1\CodeShuai.Razor.genruntimeconfig.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Razor\obj\Debug\netcoreapp3.1\CodeShuai.Razor.csproj.CopyComplete
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.Razor\obj\Debug\netcoreapp3.1\scopedcss\bundle\CodeShuai.Razor.styles.css
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.Razor\obj\Debug\netcoreapp3.1\CodeShuai.Razor.csprojAssemblyReference.cache
