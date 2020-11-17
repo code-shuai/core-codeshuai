@@ -6,11 +6,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using CodeShuai.BLL;
 using CodeShuai.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace CodeShuai.WebApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]/[action]")]
     public class ValuesController : ControllerBase
     {
 
@@ -37,24 +39,38 @@ namespace CodeShuai.WebApi.Controllers
 
         #region Bill
         [HttpPost]
-        public int AddBill(Bill b)
+        public string AddBill([FromForm]Bill b)
         {
-            return h.AddBill(b);
+            b.AddTime = DateTime.Now;
+            b.State = 1;
+            if (h.AddBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpPost]
-        public int DeleteBill(Bill b)
+        public string DeleteBill([FromForm] Bill b)
         {
-            return h.DeleteBill(b);
+            if (h.DeleteBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpPost]
-        public int UpdateBill(Bill b)
+        public string UpdateBill([FromForm] Bill b)
         {
-            return h.UpdateBill(b);
+            if (h.UpdateBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpGet]
-        public List<Bill> GetBills(int userID)
+        public List<Bill> GetBills(int id)
         {
-            return h.GetBills(userID);
+            return h.GetBills(id);
         }
         #endregion
 

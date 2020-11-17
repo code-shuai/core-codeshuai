@@ -42,3 +42,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.WebApi\bin\Debug\netcoreapp3.1\CodeShuai
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WebApi\bin\Debug\netcoreapp3.1\CodeShuai.MySql.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WebApi\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WebApi\obj\Debug\netcoreapp3.1\CodeShuai.WebApi.csproj.CopyComplete
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.WebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

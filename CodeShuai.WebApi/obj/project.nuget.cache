@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8HuimU05MfYzlZomZyLSJs6+EPhpfHxgPc7smnXLdxohLnNzW1NaIdaQMYRKoYlAmKKmcKPmExm3C8vyzXj8zg==",
+  "dgSpecHash": "jxNX4yDym1w5AR7HmsoZYj6qVAtXB6JuPBFZer60E7IwapDPMjLZJxG408aJH1/AbBAnofO456D8xFh+hmdlfw==",
   "success": true,
   "projectFilePath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\81960\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\mysql.data\\8.0.22\\mysql.data.8.0.22.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "D:\\Microsoft\\Xamarin\\NuGet\\runtime.native.system.io.compression\\4.1.0\\runtime.native.system.io.compression.4.1.0.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\runtime.native.system.net.http\\4.0.1\\runtime.native.system.net.http.4.0.1.nupkg.sha512",

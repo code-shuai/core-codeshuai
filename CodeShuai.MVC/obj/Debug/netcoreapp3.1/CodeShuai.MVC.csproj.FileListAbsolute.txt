@@ -58,3 +58,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.BL
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.BLL.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Bill\Index.cshtml.g.cs

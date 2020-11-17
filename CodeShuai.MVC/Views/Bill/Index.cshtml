@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Bill Page";
+}
+
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+@*<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>*@
+<div id="app">
+    {{ message }}
+    <button v-on:click="val">dian</button>
+</div>
+<script>
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!'
+        },
+        methods: {
+            val: function () {
+                $.ajax({
+                    url: "http://localhost:6943/api/values/getbills?id=1",
+                    date: "",
+                    dateType: "json",
+                    type: "get"
+                }).done(function (ret) {
+                    console.log(ret);
+                })
+            }
+        }
+    })
+    
+</script>

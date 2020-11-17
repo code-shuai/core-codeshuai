@@ -6,3 +6,28 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<div>
+
+</div>
+<script>
+    $(function () {
+        AAA();
+    })
+    function AAA() {
+        $.ajax({
+            url: "http://localhost:6943/api/values/getbills",
+            date: {
+                id: "1"
+            },
+            dateType: "json",
+            type: "get"
+        }).done(function (ret) {
+            console.log(ret)
+            console.log(ret);
+        })
+    }
+</script>

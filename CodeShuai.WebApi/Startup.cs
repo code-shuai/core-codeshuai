@@ -18,12 +18,27 @@ namespace CodeShuai.WebApi
         {
             Configuration = configuration;
         }
+        private readonly string AllowCors = "AllowCors";
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            //在AddControllers 之前添加
+            #region 跨域
+            services.AddCors(options =>
+            {
+                options.AddPolicy(AllowCors,
+                    builder =>
+                    {
+                        builder.AllowAnyMethod()
+                            .AllowAnyOrigin()
+                            .AllowAnyHeader();
+                    });
+            });
+            #endregion
             services.AddControllers();
         }
 
@@ -35,10 +50,23 @@ namespace CodeShuai.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+
+            app.UseStaticFiles();
             app.UseRouting();
 
-            app.UseAuthorization();
 
+            app.UseAuthorization();
+            //在UseRouting之后，Endpoints之前，添加如下代码
+            app.UseCors(AllowCors);
+
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    //全局路由配置
+            //    endpoints.MapControllerRoute(name: "default",
+            //       pattern: "{controller=WeatherForecast}/{action=Get}/{id?}"
+            //    );
+            //});
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
