@@ -27,5 +27,41 @@ namespace CodeShuai.MVC.Controllers
         {
             return h.UpdatePwd(new User { ID = id, Password = pwd });
         }
+        [HttpGet]
+        [Route("get")]
+        public List<User> GetUsers()
+        {
+            return h.GetUsers();
+        }
+
+
+
+
+        #region Bill
+        [HttpPost]
+        [Route("addBill")]
+        public int AddBill(Bill b)
+        {
+            return h.AddBill(b);
+        }
+        [HttpPost]
+        [Route("deleteBill")]
+        public int DeleteBill(Bill b)
+        {
+            return h.DeleteBill(b);
+        }
+        [HttpPost]
+        [Route("updateBill")]
+        public int UpdateBill(Bill b)
+        {
+            return h.UpdateBill(b);
+        }
+        [HttpGet]
+        [Route("getBills")]
+        public List<Bill> GetBills(int userID)
+        {
+            return h.GetBills(userID);
+        }
+        #endregion
     }
 }

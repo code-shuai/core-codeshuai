@@ -6,6 +6,16 @@ namespace CodeShuai.BLL
 {
     public class Helper
     {
+        #region User
+
+        /// <summary>
+        /// 获取所有用户信息
+        /// </summary>
+        /// <returns></returns>
+        public List<User> GetUsers()
+        {
+            return DapperService<User>.QuerySqlString("select * from user");
+        }
 
         /// <summary>
         /// 登录
@@ -46,10 +56,26 @@ namespace CodeShuai.BLL
         {
             return DapperService<User>.ExcuteSqlString("update user set Password=@Password where ID=@ID",u);
         }
+        #endregion
 
-        //public int AddBill()
-        //{
 
-        //}
+        #region Bill
+        public int AddBill(Bill b)
+        {
+            return DapperService<Bill>.ExcuteSqlString("insert into bill (UserID,Money,Remark,Lable,AddTime,State) values(@UserID,@Money,@Remark,@Lable,@AddTime,@State)", b);
+        }
+        public int DeleteBill(Bill b)
+        {
+            return DapperService<Bill>.ExcuteSqlString("update bill set State=0 where ID=@ID", b);
+        }
+        public int UpdateBill(Bill b)
+        {
+            return DapperService<Bill>.ExcuteSqlString("update bill set  money=@Money, remark=@Remark,lable=@Lable  where ID=@ID", b);
+        }
+        public List<Bill> GetBills(int userID)
+        {
+            return DapperService<Bill>.QuerySqlString("select * from bill where userID="+userID);
+        }
+        #endregion
     }
 }

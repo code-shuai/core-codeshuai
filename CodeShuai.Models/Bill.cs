@@ -12,5 +12,6 @@ namespace CodeShuai.Models
         public string Remark { get; set; }
         public string Lable { get; set; }
         public DateTime AddTime { get; set; }
+        public int State { get; set; }
     }
 }
