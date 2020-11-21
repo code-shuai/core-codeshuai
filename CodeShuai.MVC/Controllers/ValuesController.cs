@@ -11,56 +11,68 @@ using Microsoft.AspNetCore.Mvc;
 namespace CodeShuai.MVC.Controllers
 {
     [ApiController]
+    [Route("api/[controller]/[action]")]
     public class ValuesController : ControllerBase
     {
+
         Helper h = new Helper();
-        
-        [Route("adduser")]
-        [HttpGet]
-        public int AddUser(string acc,string pwd)
+
+        #region User
+        [HttpPost]
+        public int AddUser([FromForm] User u)
         {
-            return h.AddUser(new User { Account = acc, Password = pwd });
+            u.CreateTime = DateTime.Now;
+            return h.AddUser(u);
         }
         [HttpGet]
-        [Route("uPwd")]
-        public int UpdatePassword(int id,string pwd)
+        public int UpdatePassword(int id, string pwd)
         {
             return h.UpdatePwd(new User { ID = id, Password = pwd });
         }
         [HttpGet]
-        [Route("get")]
         public List<User> GetUsers()
         {
             return h.GetUsers();
         }
 
 
+        #endregion
 
 
         #region Bill
         [HttpPost]
-        [Route("addBill")]
-        public int AddBill(Bill b)
+        public string AddBill([FromForm] Bill b)
         {
-            return h.AddBill(b);
+            b.AddTime = DateTime.Now;
+            b.State = 1;
+            if (h.AddBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpPost]
-        [Route("deleteBill")]
-        public int DeleteBill(Bill b)
+        public string DeleteBill([FromForm] Bill b)
         {
-            return h.DeleteBill(b);
+            if (h.DeleteBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpPost]
-        [Route("updateBill")]
-        public int UpdateBill(Bill b)
+        public string UpdateBill([FromForm] Bill b)
         {
-            return h.UpdateBill(b);
+            if (h.UpdateBill(b) == 1)
+            {
+                return "1001";
+            }
+            return "1002";
         }
         [HttpGet]
-        [Route("getBills")]
-        public List<Bill> GetBills(int userID)
+        public List<Bill> GetBills(int id)
         {
-            return h.GetBills(userID);
+            return h.GetBills(id);
         }
         #endregion
     }

@@ -1,6 +1,5 @@
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\appsettings.Development.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\appsettings.json
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.MVC.exe
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.MVC.deps.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.MVC.runtimeconfig.json
@@ -54,3 +53,11 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\staticweba
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\CodeShuai.MVC.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\CodeShuai.MVC.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\CodeShuai.MVC.genruntimeconfig.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\bundleconfig.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\libman.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.BLL.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.SQLServer.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.BLL.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Release\netcoreapp3.1\CodeShuai.SQLServer.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\scopedcss\bundle\CodeShuai.MVC.styles.css
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Release\netcoreapp3.1\Razor\Views\Bill\Index.cshtml.g.cs

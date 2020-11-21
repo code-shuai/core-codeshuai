@@ -4,15 +4,64 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CodeShuai.MVC</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/all.css" rel="stylesheet" />
+    <script src="~/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        $(function () {
+            var wname = window.navigator.userAgent;
+            var screen_width = window.screen.width;
+            var screen_height = window.screen.height;
+            var w = $(document).width();
+            var h = $(document).height();
+            alert(wname);
+            alert("width:" + screen_width + "--height:" + screen_height + "--otherWidth:" + w + "--otherHeight" + h);
+        })
+    </script>
+</head>
+<body>
+
+
+    <div class="app">
+        南京免费代缴社保，公积金，注册公司，大学生租房补贴，详情请联系：18855397334（微信同号）
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xl-12 text-info">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="sjrow">
+            <div class="sjcol-sm-4 sjcol-2">
+                <a class="btn btn-dark" href="#">one</a>
+            </div>
+            <div class="sjcol-sm-4 sjcol-2">
+                <a class="btn btn-info" href="#">two</a>
+            </div>
+            <div class="sjcol-sm-4 sjcol-2 ">
+                <a class="btn btn-Secondary" href="#">three</a>
+            </div>
+        </div>
+    </div>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
+
+
+
+
+
+@*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-</head>
-<body>
-    <header>
+    <script src="~/js/site.js" asp-append-version="true"></script>*@
+
+
+@*<header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CodeShuai.MVC</a>
@@ -32,18 +81,14 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
+    </header>*@
+@*<div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+        </main>
+    </div>*@
+@*<footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2020 - CodeShuai.MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
-    @RenderSection("Scripts", required: false)
-</body>
-</html>
+    </footer>*@

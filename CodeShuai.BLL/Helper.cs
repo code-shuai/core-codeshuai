@@ -7,7 +7,6 @@ namespace CodeShuai.BLL
     public class Helper
     {
         #region User
-
         /// <summary>
         /// 获取所有用户信息
         /// </summary>
@@ -44,7 +43,7 @@ namespace CodeShuai.BLL
         /// <returns></returns>
         public int AddUser(User u)
         {
-            return DapperService<User>.ExcuteSqlString("insert into user (Account,Password) values(@Account,@Password)", u);
+            return DapperService<User>.ExcuteSqlString("insert into user (Account,Password,CreateTime) values(@Account,@Password,@CreateTime)", u);
         }
 
         /// <summary>

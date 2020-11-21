@@ -59,3 +59,5 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.SQ
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.BLL.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\CodeShuai.SQLServer.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Bill\Index.cshtml.g.cs
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\bundleconfig.json
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MVC\bin\Debug\netcoreapp3.1\libman.json

@@ -18,10 +18,12 @@ namespace CodeShuai.WebApi.Controllers
 
         Helper h = new Helper();
 
-        [HttpGet]
-        public int AddUser(string acc, string pwd)
+        #region User
+        [HttpPost]
+        public int AddUser([FromForm] User u)
         {
-            return h.AddUser(new User { Account = acc, Password = pwd });
+            u.CreateTime = DateTime.Now;
+            return h.AddUser(u);
         }
         [HttpGet]
         public int UpdatePassword(int id, string pwd)
@@ -35,6 +37,7 @@ namespace CodeShuai.WebApi.Controllers
         }
 
 
+        #endregion
 
 
         #region Bill

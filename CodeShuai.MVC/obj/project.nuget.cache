@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ez5DGd65SYiQ5YCA5/Jj2yT8HEBKrN1KOx+otsPo5clCuF8ZDwkCd8IzMTAJ76q1mAf9ei6yLTU9yasjAunFfQ==",
+  "dgSpecHash": "VsIuE+7zooTv8OuLZhjcCQ8cj5C0H3rViQ4J54sXmxcZxOBt7GDPi4wJFOUvnk6rEmXFuAs2eXpRq9u7KwdQsA==",
   "success": true,
   "projectFilePath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MVC\\CodeShuai.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\81960\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
     "C:\\Users\\81960\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

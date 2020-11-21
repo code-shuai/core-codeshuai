@@ -24,8 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "CodeShuai.MVC/1.0.0": {
         "dependencies": {
-          "CodeShuai.Models": "1.0.0",
-          "CodeShuai.MySql": "1.0.0",
+          "BuildBundlerMinifier": "3.2.449",
+          "CodeShuai.BLL": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -332,6 +332,7 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "BuildBundlerMinifier/3.2.449": {},
       "Dapper/2.0.35": {
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.7.0"
@@ -1312,6 +1313,18 @@
           "ref/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CodeShuai.BLL/1.0.0": {
+        "dependencies": {
+          "CodeShuai.MySql": "1.0.0",
+          "CodeShuai.SQLServer": "1.0.0"
+        },
+        "runtime": {
+          "CodeShuai.BLL.dll": {}
+        },
+        "compile": {
+          "CodeShuai.BLL.dll": {}
+        }
+      },
       "CodeShuai.Models/1.0.0": {
         "runtime": {
           "CodeShuai.Models.dll": {}
@@ -1331,6 +1344,14 @@
         },
         "compile": {
           "CodeShuai.MySql.dll": {}
+        }
+      },
+      "CodeShuai.SQLServer/1.0.0": {
+        "runtime": {
+          "CodeShuai.SQLServer.dll": {}
+        },
+        "compile": {
+          "CodeShuai.SQLServer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3040,6 +3061,13 @@
       "path": "bouncycastle.netcore/1.8.3",
       "hashPath": "bouncycastle.netcore.1.8.3.nupkg.sha512"
     },
+    "BuildBundlerMinifier/3.2.449": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "path": "buildbundlerminifier/3.2.449",
+      "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
+    },
     "Dapper/2.0.35": {
       "type": "package",
       "serviceable": true,
@@ -3656,12 +3684,22 @@
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
+    "CodeShuai.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CodeShuai.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CodeShuai.MySql/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodeShuai.SQLServer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

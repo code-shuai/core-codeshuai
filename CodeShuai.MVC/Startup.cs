@@ -36,6 +36,7 @@ namespace CodeShuai.MVC
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            // ¾²Ì¬ÎÄ¼þ
             app.UseStaticFiles();
 
             app.UseRouting();
