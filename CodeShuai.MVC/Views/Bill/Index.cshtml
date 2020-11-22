@@ -4,30 +4,23 @@
 
 <!-- 开发环境版本，包含了有帮助的命令行警告 -->
 <div id="app">
-    {{ message }}
-    {{obj}}
+
+    <cs-bill v-for="post in obj" v-bind:key="post.id" v-bind:post="post"></cs-bill>
+
     <button class="btn btn-primary" v-on:click="val">dian</button>
-    
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>用户ID</th>
-                <th>钱</th>
-                <th>备注</th>
-                <th>标签</th>
-            </tr>
-        </thead>
-        <tr v-for="o in obj">
-            <td>{{o.id}}</td>
-            <td>{{o.userID}}</td>
-            <td>{{o.money}}</td>
-            <td>{{o.remark}}</td>
-            <td>{{o.lable}}</td>
-        </tr>
-    </table>
+
+    <nav id="sjnavFoot" class="navbar fixed-bottom justify-content-center navbar-light" style="background-color: #e3f2fd;">
+        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link " href="#"><i class="fa fa-plus" style="font-size:30px;"></i></a>
+        <a class="nav-link" href="#">Link</a>
+    </nav>
 </div>
 <script>
+
+    //var sjnavHeadHeight = $("#sjnavHead").outerHeight();
+    var sjnavFootHeight = $("#sjnavFoot").outerHeight();
+    $("#jsMain").css({  "margin-bottom": sjnavFootHeight + 10  })
+
     var data = { message: "Hello Vue!", obj: "" };
     var app = new Vue({
         el: '#app',
@@ -47,5 +40,5 @@
             }
         }
     })
-    
+
 </script>

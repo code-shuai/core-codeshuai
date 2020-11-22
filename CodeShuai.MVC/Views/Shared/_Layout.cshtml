@@ -4,91 +4,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CodeShuai.MVC</title>
-    <link href="~/css/all.css" rel="stylesheet" />
-    <script src="~/js/all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/css/cscss.css" rel="stylesheet" />
+
+    <script src="~/js/vue.js"></script>
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/csjs.js"></script>
+
     <script>
         $(function () {
-            var wname = window.navigator.userAgent;
-            var screen_width = window.screen.width;
-            var screen_height = window.screen.height;
-            var w = $(document).width();
-            var h = $(document).height();
-            alert(wname);
-            alert("width:" + screen_width + "--height:" + screen_height + "--otherWidth:" + w + "--otherHeight" + h);
+            var sjnavHeadHeight = $("#sjnavHead").outerHeight();
+            //var sjnavFootHeight = $("#sjnavFoot").outerHeight();
+            $("#jsMain").css({ "margin-top": sjnavHeadHeight + 10/*, "margin-bottom": sjnavFootHeight + 10 */})
         })
     </script>
 </head>
 <body>
-
-
-    <div class="app">
-        南京免费代缴社保，公积金，注册公司，大学生租房补贴，详情请联系：18855397334（微信同号）
+    <nav id="sjnavHead" class="navbar fixed-top navbar-dark bg-dark">
+        @*<a class="nav-link active" href="#"><i class=""></i></a>
+        <h2 class="nav-link">帅举 - 记账</h2>*@
+    </nav>
+    <div id="jsMain" class="container" style="">
+        <div class="border border-info  rounded-circle" style="width:50px;height:50px;"><i class="fa fa-plus" style="font-size:30px;margin-top:10px;margin-left:10px;"></i></div>
+        <hr />
+        @RenderBody()
+        <hr />
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-xl-12 text-info">
-                @RenderBody()
-            </div>
-        </div>
-        <div class="sjrow">
-            <div class="sjcol-sm-4 sjcol-2">
-                <a class="btn btn-dark" href="#">one</a>
-            </div>
-            <div class="sjcol-sm-4 sjcol-2">
-                <a class="btn btn-info" href="#">two</a>
-            </div>
-            <div class="sjcol-sm-4 sjcol-2 ">
-                <a class="btn btn-Secondary" href="#">three</a>
-            </div>
-        </div>
-    </div>
-    @RenderSection("Scripts", required: false)
 </body>
 </html>
-
-
-
-
-
-
-
-@*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>*@
-
-
-@*<header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CodeShuai.MVC</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>*@
-@*<div class="container">
-        <main role="main" class="pb-3">
-
-        </main>
-    </div>*@
-@*<footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - CodeShuai.MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>*@
