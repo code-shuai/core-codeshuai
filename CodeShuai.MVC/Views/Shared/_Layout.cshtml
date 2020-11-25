@@ -3,35 +3,28 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CodeShuai.MVC</title>
+    <title>@ViewData["Title"]</title>
 
-    <link href="~/css/bootstrap.css" rel="stylesheet" />
-    <link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/layui/css/layui.css" rel="stylesheet" />
     <link href="~/css/cscss.css" rel="stylesheet" />
 
-    <script src="~/js/vue.js"></script>
-    <script src="~/js/jquery.js"></script>
-    <script src="~/js/bootstrap.js"></script>
+    <script src="~/layui/layui.js"></script>
     <script src="~/js/csjs.js"></script>
 
     <script>
-        $(function () {
-            var sjnavHeadHeight = $("#sjnavHead").outerHeight();
-            //var sjnavFootHeight = $("#sjnavFoot").outerHeight();
-            $("#jsMain").css({ "margin-top": sjnavHeadHeight + 10/*, "margin-bottom": sjnavFootHeight + 10 */})
-        })
+        $(document).ready(function () {
+            var urlSplit = window.location.href.split('/')
+            if (getCookie('userAccount') == "") {
+                if (urlSplit[urlSplit.length - 1] != 'login') {
+                    window.location.href = '/user/login';
+                }
+            }
+
+        });
+
     </script>
 </head>
 <body>
-    <nav id="sjnavHead" class="navbar fixed-top navbar-dark bg-dark">
-        @*<a class="nav-link active" href="#"><i class=""></i></a>
-        <h2 class="nav-link">帅举 - 记账</h2>*@
-    </nav>
-    <div id="jsMain" class="container" style="">
-        <div class="border border-info  rounded-circle" style="width:50px;height:50px;"><i class="fa fa-plus" style="font-size:30px;margin-top:10px;margin-left:10px;"></i></div>
-        <hr />
-        @RenderBody()
-        <hr />
-    </div>
+    @RenderBody()
 </body>
 </html>

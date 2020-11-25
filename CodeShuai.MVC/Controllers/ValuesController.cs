@@ -7,12 +7,14 @@ using CodeShuai.Models;
 using CodeShuai.MySql;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace CodeShuai.MVC.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]/[action]")]
-    public class ValuesController : ControllerBase
+    //[ApiController]
+    //[Route("[controller]/[action]")]
+    public class ValuesController : Controller
     {
 
         Helper h = new Helper();
@@ -34,6 +36,11 @@ namespace CodeShuai.MVC.Controllers
         {
             return h.GetUsers();
         }
+        [HttpPost]
+        public string Login(User u)
+        {
+            return h.Login(u);
+        }
 
 
         #endregion
@@ -41,7 +48,7 @@ namespace CodeShuai.MVC.Controllers
 
         #region Bill
         [HttpPost]
-        public string AddBill([FromForm] Bill b)
+        public string AddBill(Bill b)
         {
             b.AddTime = DateTime.Now;
             b.State = 1;
@@ -52,7 +59,7 @@ namespace CodeShuai.MVC.Controllers
             return "1002";
         }
         [HttpPost]
-        public string DeleteBill([FromForm] Bill b)
+        public string DeleteBill(Bill b)
         {
             if (h.DeleteBill(b) == 1)
             {
@@ -61,7 +68,7 @@ namespace CodeShuai.MVC.Controllers
             return "1002";
         }
         [HttpPost]
-        public string UpdateBill([FromForm] Bill b)
+        public string UpdateBill(Bill b)
         {
             if (h.UpdateBill(b) == 1)
             {
@@ -70,9 +77,25 @@ namespace CodeShuai.MVC.Controllers
             return "1002";
         }
         [HttpGet]
-        public List<Bill> GetBills(int id)
+        public List<Bill> GetBills(int pageIndex, int pageSize, int id)
         {
-            return h.GetBills(id);
+            List<Bill> list = h.GetBills(id);
+            if (list.Count < pageIndex * pageSize + pageSize)
+            {
+                return new List<Bill>();
+            }
+            else
+            {
+                return list.Skip(pageIndex * pageSize).ToList().Take(pageSize).ToList();
+            }
+        }
+
+
+
+        [HttpGet]
+        public List<Label> GetLabels()
+        {
+            return h.GetLabels();
         }
         #endregion
     }

@@ -12,5 +12,14 @@ namespace CodeShuai.MVC.Controllers
         {
             return View();
         }
+
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult Analyse()
+        {
+            return View();
+        }
     }
 }

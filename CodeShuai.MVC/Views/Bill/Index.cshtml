@@ -2,43 +2,64 @@
     ViewData["Title"] = "Bill Page";
 }
 
-<!-- 开发环境版本，包含了有帮助的命令行警告 -->
-<div id="app">
+@* 头 *@
+<nav id="csnavHead" class="navbar fixed-top csbg-orange-2 justify-content-center" style="text-align:center">
+    <div class="btn-group btn-lg btn-block" role="group" aria-label="Basic example">
+        <a class="btn csbg-orange-2 text-white" href="#"></a>
+        <a class="btn csbg-orange-2 text-white" href="#">Code-Shuai</a>
+        <a class="btn csbg-orange-2 text-white" href="#"></a>
+    </div>
+</nav>
 
-    <cs-bill v-for="post in obj" v-bind:key="post.id" v-bind:post="post"></cs-bill>
 
-    <button class="btn btn-primary" v-on:click="val">dian</button>
+@*身体*@
+<div id="csMain" class="container" style="">
+    @*内容*@
 
-    <nav id="sjnavFoot" class="navbar fixed-bottom justify-content-center navbar-light" style="background-color: #e3f2fd;">
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link " href="#"><i class="fa fa-plus" style="font-size:30px;"></i></a>
-        <a class="nav-link" href="#">Link</a>
-    </nav>
+    <button class="btn btn-light btn-lg btn-block" id="addBillBtn"  data-toggle="modal" data-target="#addBillModal"><i class="fa fa-plus cstext-orange-2" style="font-size:30px;"></i></button>
+    <div id="billData">
+
+    </div>
+    @*加载*@
+    <div>
+        <a id="loadMoreData" href="#">加载更多</a>
+    </div>
 </div>
+
+
+
+
+@*底部*@
+
+@Html.Partial("_billFoot")
+
+@Html.Partial("_billAddModel")
+
+<div class="text-danger h3"></div>
 <script>
+    //初始化
+    $(function () {
 
-    //var sjnavHeadHeight = $("#sjnavHead").outerHeight();
-    var sjnavFootHeight = $("#sjnavFoot").outerHeight();
-    $("#jsMain").css({  "margin-bottom": sjnavFootHeight + 10  })
 
-    var data = { message: "Hello Vue!", obj: "" };
-    var app = new Vue({
-        el: '#app',
-        data: data,
-        methods: {
-            val: function () {
-                $.ajax({
-                    url: "/api/values/getbills?id=1",
-                    date: "",
-                    dateType: "json",
-                    type: "get"
-                }).done(function (ret) {
-                    console.log(ret);
-                    data.obj = JSON.parse(JSON.stringify(ret));
-                    //JSON.parse(data.obj);
-                })
-            }
-        }
+        var csnavHeadHeight = $("#csnavHead").outerHeight();
+        $("#csMain").css({ "margin-top": csnavHeadHeight + 10, "margin-bottom": csnavHeadHeight + 10 })
+
+        var pageIndex = 0;
+        $("#billData").empty();
+        LoadData(pageIndex);
+        $("#loadMoreData").click(function () {
+            pageIndex++;
+            LoadData(pageIndex);
+        })
+        $("#addBillBtn").click(function () {
+            LoadLabel();
+            $("#billAddModelDeleteBtn").hide();
+        })
+        $("#billSave").click(function () {
+            AddBill();
+        })
+        $("#billAddModelDeleteBtn").click(function () {
+            DeleteBill();
+        })
     })
-
 </script>

@@ -16,3 +16,4 @@ E:\Code\DotNet\Core_CodeShuai\CodeShuai.WPF\obj\Debug\netcoreapp3.1\CodeShuai.WP
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WPF\obj\Debug\netcoreapp3.1\CodeShuai.WPF.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WPF\obj\Debug\netcoreapp3.1\CodeShuai.WPF.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.WPF\obj\Debug\netcoreapp3.1\CodeShuai.WPF.genruntimeconfig.cache
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.WPF\obj\Debug\netcoreapp3.1\CodeShuai.WPF.csprojAssemblyReference.cache
