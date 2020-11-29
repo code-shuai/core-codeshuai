@@ -3,14 +3,13 @@
     ViewData["Title"] = "Home";
 }
 
-<h1>Home</h1>
 
-
-
-<div>
-    <button class="btn btn-light btn-lg btn-block" onclick="UserExit()">退出登录</button>
+@Html.Partial("_billHead")
+<div class="csMain">
+    <div class="layui-row">
+        <div class="layui-col-xs10 layui-col-xs-offset1">
+            <button class="layui-btn layui-btn-fluid" onclick="UserExit()">退出登录</button>
+        </div>
+    </div>
 </div>
-
-
-
 @Html.Partial("_billFoot")

@@ -3,28 +3,60 @@
     float: right;
     margin-right: 20px;
 }
-.csbill-remark{
-    margin-top:10px;
-    margin-left:20px;
+
+.csbill-remark {
+    margin-top: 10px;
+    margin-left: 20px;
 }
+
 .csbill-date {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     font-size: 20px;
 }
-.csM-20{
-    margin-top:20px;
-    margin-left:20px;
-    margin-bottom:20px;
-    margin-right:20px;
-}
-.csML-20{
-    margin-left:20px;
+.csUl {
+    list-style-type:none;
 }
 
-.csMT-10{
-    margin-top:10px;
+.csM-20 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.csML-20 {
+    margin-left: 20px;
+}
+
+.csMT-10 {
+    margin-top: 10px;
+}
+.csMT-20 {
+    margin-top: 20px;
+}
+
+.csFoot {
+    position: fixed;
+    background-color: antiquewhite;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.csHead {
+    position: fixed;
+    background-color: antiquewhite;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+.csMain {
+    position: fixed;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    top: 70px;
 }
 
 
@@ -32,12 +64,18 @@
 .csbg-orange-1 {
     background-color: #e64a19;
 }
+
 .csbg-orange-2 {
     background-color: #ff5722;
+}
+
+.csText-23{
+    font-size:23px;
 }
 .cstext-orange-1 {
     color: #e64a19;
 }
+
 .cstext-orange-2 {
     color: #ff5722
 }
@@ -222,7 +260,7 @@
         max-width: 33.333333%;
     }
 
-   /* .cscol-sm-5 {
+    /* .cscol-sm-5 {
         max-width: 33%;
     }*/
 

@@ -1,12 +1,12 @@
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.MySql.deps.json
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.MySql.dll
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.MySql.pdb
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.Models.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.Models.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.csprojAssemblyReference.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.AssemblyInfoInputs.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.AssemblyInfo.cs
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.dll
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.pdb
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.Models.dll
-E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\bin\Debug\netcoreapp3.1\CodeShuai.Models.pdb
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.csproj.CoreCompileInputs.cache
 E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.csproj.CopyComplete
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.dll
+E:\Code\DotNet\Core_CodeShuai\CodeShuai.MySql\obj\Debug\netcoreapp3.1\CodeShuai.MySql.pdb

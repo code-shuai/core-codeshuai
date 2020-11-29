@@ -1,0 +1,134 @@
+﻿
+@{
+    ViewData["Title"] = "Add";
+}
+
+
+<style>
+
+    .csJZA {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .csJZ {
+        width: 80%;
+        height: 300px;
+        margin: 0 auto; /*水平居中*/
+        top: 50%;
+        position: relative;
+        margin-top: -150px;
+    }
+</style>
+@Html.Partial("_billHead")
+<div class="csMain">
+    <div class="layui-row">
+        <div class="layui-col-xs10 layui-col-xs-offset1">
+            <div class="layui-card">
+                <div class="layui-card-header">Add Bill</div>
+                <div class="layui-card-body">
+                    <form class="layui-form layui-form-pane" action="">
+
+                        <div class="layui-form-item">
+
+                            <label class="layui-form-label"><i class="layui-icon layui-icon-theme"></i></label>
+                            <div class="layui-input-inline">
+                                <select name="billLabel" id="billLabel" lay-filter="projectfilter">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label"><i class="layui-icon layui-icon-rmb"></i></label>
+                            <div class="layui-input-block">
+                                <input type="text" name="money" autocomplete="off" placeholder="请输入金额" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label"><i class="layui-icon layui-icon-survey"></i></label>
+                            <div class="layui-input-block">
+                                <input type="text" name="remark" placeholder="请输入备注" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="@*layui-input-block*@">
+                                <button type="submit" class="layui-btn layui-btn-fluid" lay-submit="" lay-filter="login">立即提交</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@Html.Partial("_billFoot")
+
+
+<script>
+    layui.use(['form', 'upload', 'layer'], function () {
+
+        var form = layui.form;
+
+
+
+        //检查项目添加到下拉框中
+        $.ajax({
+            url: '/values/getlabels',
+            dataType: 'json',
+            type: 'get',
+            success: function (data) {
+                $("#billLabel").empty();
+                if (data.length != 0) {
+                    //$("#billLabel").append(new Option("请选择项目", ""));
+                    $.each(data, function (index, item) {
+                        $('#billLabel').append(new Option(item.labelCode + '/' + item.labelName, item.ID));
+                    });
+                } else {
+                    $("#billLabel").append(new Option("暂无数据", ""));
+                }
+
+                layui.form.render("select");
+                //重新渲染 固定写法
+            }
+        })
+
+    });
+
+    layui.use(['form', 'layedit', 'laydate'], function () {
+        var form = layui.form
+            , layer = layui.layer
+            , layedit = layui.layedit
+            , laydate = layui.laydate;
+
+
+        //监听提交
+        form.on('submit(login)', function (data) {
+
+
+            var billLabel = (this.form[1].value).split('/');
+            var billData = {};
+
+            billData.LabelName = billLabel[1];
+            billData.LabelCode = billLabel[0];
+            billData.Money = this.form[2].value;
+            billData.Remark = this.form[3].value;
+            billData.UserID = getCookie('userAccount');
+
+
+            $.ajax({
+                url: "/values/AddBill",
+                data: billData,
+                dataType: "json",
+                type: "POST"
+            }).done(function (addTF) {
+                if (addTF == 1001) {
+                    window.location.href = '/bill/index';
+                }
+            })
+            return false;
+        });
+
+    });
+</script>

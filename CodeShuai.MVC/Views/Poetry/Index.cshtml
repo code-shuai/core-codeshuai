@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $.getJSON("/chinese-poetry/caocaoshiji/caocao.json", function (data) {
+                    var $jsontip = $("#jsonTip");
+                    var strHtml = "123";
+                    //存储数据的变量
+                    $jsontip.empty();
+                    //清空内容
+                    $.each(data, function (infoIndex, info) {
+
+
+                    })
+                    $jsontip.html(strHtml);
+                    //显示处理后的数据
+                })
+            })
+        })
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+

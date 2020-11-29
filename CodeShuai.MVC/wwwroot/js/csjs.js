@@ -29,30 +29,6 @@ function UserExit() {
     delCookie('userAccount');
     window.location.href = '/user/login';
 }
-//µÇÂ¼
-function Login() {
-    var checkVal = $("#UserRemember").prop('checked');
-    var user = {};
-    user.Account = $("#UserAccount").val();
-    user.Password = $("#UserPassword").val();
-
-
-    $.ajax({
-        url: "/values/Login",
-        data: user,
-        dataType: "json",
-        type: "POST"
-    }).done(function (returnData) {
-        if (returnData == '1001') {
-            if (checkVal) {
-                setCookie('userAccount', user.Account, 360);
-            } else {
-                setCookie('userAccount', user.Account, 0);
-            }
-            window.location.href = '/bill/index';
-        }
-    })
-}
 
 
 function DeleteBill() {

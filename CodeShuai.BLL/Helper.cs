@@ -24,7 +24,7 @@ namespace CodeShuai.BLL
         /// <returns>1=正确 0=密码错误 -1=无此账号 </returns>
         public string Login(User u)
         {
-            List<User> user = DapperService<User>.QuerySqlString($"select * from user where Account='{u.Account}'" );
+            List<User> user = DapperService<User>.QuerySqlString($"select * from user where Account='{u.Account}'");
             if (user.Count != 0)
             {
                 if (user[0].Password == u.Password)
@@ -74,6 +74,15 @@ namespace CodeShuai.BLL
         public List<Bill> GetBills(int userID)
         {
             return DapperService<Bill>.QuerySqlString("SELECT * FROM bill WHERE UserID = " + userID + " and State=1  order by AddTime DESC");
+        }
+
+        public List<BillStatistics> GetBillStatistics(string userId, string aDate, string bDate)
+        {
+            return DapperService<BillStatistics>.QuerySqlString("select  LabelCode,LabelName,count(money) BillCount,SUM(Money) BillCountMoney from bill where AddTime between  '" + aDate + "'  and '" + bDate + "'  and userid='" + userId + "' GROUP BY LabelCode,LabelName");
+        }
+        public BillMoneyCountAndAmount GetBillMoneyCount(string userId, string aDate, string bDate)
+        {
+            return DapperService<BillMoneyCountAndAmount>.QuerySqlString("select  count(*) Amount,sum(money) MoneyCount from bill where AddTime between  '" + aDate + "'  and '" + bDate + "'  and userid='" + userId + "'")[0];
         }
         #endregion
 

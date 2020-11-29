@@ -6,3 +6,89 @@
 
 
 
+
+@Html.Partial("_billHead")
+<div class="csMain">
+    <div class="layui-row">
+        <div class="layui-col-xs10 layui-col-xs-offset1">
+            <h2 style="text-align:center">Analyse</h2>
+
+            <div id="BillStatistics">
+
+            </div>
+        </div>
+    </div>
+</div>
+@Html.Partial("_billFoot")
+
+@*// Highcharts*@
+<script src="http://cdn.highcharts.com.cn/highcharts/8.2.2/highcharts.js"></script>
+
+@*// Highcharts Stock*@
+<script src="http://cdn.highcharts.com.cn/highstock/8.2.2/highstock.js"></script>
+
+@*// Highcharts Maps*@
+<script src="http://cdn.highcharts.com.cn/highmaps/8.2.2/highmaps.js"></script>
+
+@*// Highcharts Gantt*@
+<script src="http://cdn.highcharts.com.cn/gantt/8.2.2/highcharts-gantt.js"></script>
+
+<script>
+
+    layui.use(['form', 'upload', 'layer', 'element'], function () {
+
+        $("#BillStatistics").empty();
+        //初始化变量
+        var form = layui.form
+            , element = layui.element
+            , userAccount = getCookie('userAccount')
+            , aDate = '2020/11/1'
+            , bDate = '2020/11/30';
+        //加载数据
+        $.get('/values/GetBillStatistics?id=' + userAccount + '&aDate=' + aDate + '&bDate=' + bDate
+            , function (res) {
+                res = JSON.parse(res);
+                //临时变量
+                var dataMoneyAll = 2000;
+                var dataMoneyCount = res.count.MoneyCount;
+                var dataToHtml =
+                    '<div><span>预算：' + dataMoneyAll + '</span><br/>' +
+                    '<span>支出：' + dataMoneyCount + '</span><br/>' +
+                    '<span>剩余：' + (dataMoneyAll - dataMoneyCount) + '</span><br/></div>' +
+                    '<div class="layui-progress layui-progress-big" lay-showPercent="yes" lay-filter="">' +
+                    '<div class="layui-progress-bar" lay-percent="' + ((dataMoneyCount / dataMoneyAll) * 100).toFixed(2) + '%">' +
+                    '</div></div>';
+
+
+                layui.each(res.data, function (index, item) {
+
+                    tempMoneyCount = ((item.BillCountMoney / dataMoneyCount) * 100).toFixed(2);
+
+                    dataToHtml +=
+                        '<div class="layui-row csMT-20">' +
+                        '<div class="layui-col-xs2">' +
+                        '<i class="iconfont ' + item.LabelCode + '"></i>' +
+                        '</div>' +
+                        '<div class="layui-col-xs10">' +
+                        '<div>' +
+                        '<span>' + item.LabelName + '</span>' +
+                        //'<span class="csML-20">' + tempMoneyCount + '%</span>' +
+                        '<span style="float:right;margin-right:10px;">' + item.BillCountMoney + '</span>' +
+                        '</div>' +
+                        '<div class="layui-progress layui-progress-big" lay-showPercent="yes"  lay-filter="">' +
+                        '<div class="layui-progress-bar" lay-percent="' + tempMoneyCount + '%"></div>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>'
+                })
+                $("#BillStatistics").append(dataToHtml);
+                element.init();
+
+
+            })
+
+
+    });
+
+
+</script>

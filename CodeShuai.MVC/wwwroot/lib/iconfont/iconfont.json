@@ -1,0 +1,191 @@
+{
+  "id": "2232183",
+  "name": "codeshuai",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "49731",
+      "name": "电脑",
+      "font_class": "31",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "182127",
+      "name": "彩票",
+      "font_class": "caipiao",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1079464",
+      "name": "服饰",
+      "font_class": "fushi",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "1244191",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "1315603",
+      "name": "游乐场",
+      "font_class": "youlechang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1473243",
+      "name": "电影",
+      "font_class": "dianying",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "5220163",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18166714",
+      "name": "支付,京东",
+      "font_class": "pay-jingdong",
+      "unicode": "e8dd",
+      "unicode_decimal": 59613
+    },
+    {
+      "icon_id": "18166723",
+      "name": "拼多多",
+      "font_class": "pinduoduo",
+      "unicode": "e8df",
+      "unicode_decimal": 59615
+    },
+    {
+      "icon_id": "15638876",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "829225",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "1761498",
+      "name": "药",
+      "font_class": "yao",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "2121768",
+      "name": "零食",
+      "font_class": "lingshi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "3522444",
+      "name": "学习",
+      "font_class": "xuexi1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "3745092",
+      "name": "社交",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4253511",
+      "name": "社交",
+      "font_class": "shejiao",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5025782",
+      "name": "水果",
+      "font_class": "shuiguo",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "5092026",
+      "name": "胡萝卜&蔬菜区",
+      "font_class": "huluobushucaiqu",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "5635203",
+      "name": "通讯",
+      "font_class": "tongxun",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "8922352",
+      "name": "游戏",
+      "font_class": "youxi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "15282940",
+      "name": "烟",
+      "font_class": "yan",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "554312",
+      "name": "代码",
+      "font_class": "iconset0264",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "5092024",
+      "name": "日用品",
+      "font_class": "riyongpin",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "8202707",
+      "name": "出行",
+      "font_class": "chuhang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "11749498",
+      "name": "房子",
+      "font_class": "fangzizhuye",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "55535",
+      "name": "餐饮",
+      "font_class": "92",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    }
+  ]
+}

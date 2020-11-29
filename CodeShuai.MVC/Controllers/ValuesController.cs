@@ -1,13 +1,10 @@
-﻿using System;
+﻿using CodeShuai.BLL;
+using CodeShuai.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using CodeShuai.BLL;
-using CodeShuai.Models;
-using CodeShuai.MySql;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
+//using System.Web.Http;
 using Newtonsoft.Json;
 
 namespace CodeShuai.MVC.Controllers
@@ -77,17 +74,32 @@ namespace CodeShuai.MVC.Controllers
             return "1002";
         }
         [HttpGet]
-        public List<Bill> GetBills(int pageIndex, int pageSize, int id)
+        public string GetBills(int pageIndex, int pageSize, int id)
         {
+            pageIndex--;
+
             List<Bill> list = h.GetBills(id);
-            if (list.Count < pageIndex * pageSize + pageSize)
+            decimal pageA = Convert.ToDecimal(Convert.ToDecimal(list.Count) / Convert.ToDecimal(pageSize));
+            int pages = Convert.ToInt32(Math.Ceiling(pageA));
+            if (pages == pageIndex)
             {
-                return new List<Bill>();
+                return "{'data':'null','pages':0}";
             }
             else
             {
-                return list.Skip(pageIndex * pageSize).ToList().Take(pageSize).ToList();
+                string jsonList = JsonConvert.SerializeObject(list.Skip(pageIndex * pageSize).ToList().Take(pageSize).ToList());
+                return "{\"data\":" + jsonList + ",\"pages\":" + pages + "}";
             }
+            //return Ok()
+        }
+        [HttpGet]
+        public string GetBillStatistics(string id, string aDate, string bDate)
+        {
+            List<BillStatistics> billStatistics = h.GetBillStatistics(id, aDate, bDate).OrderByDescending(b => b.BillCountMoney).ToList();
+            BillMoneyCountAndAmount billMoneyCountAndAmount = h.GetBillMoneyCount(id, aDate, bDate);
+            //1. 总预算 - 剩余
+            //2.  统计 - 时间段 - 排行
+            return "{\"data\":" + JsonConvert.SerializeObject(billStatistics) + ",\"count\":" + JsonConvert.SerializeObject(billMoneyCountAndAmount) + "}";
         }
 
 
