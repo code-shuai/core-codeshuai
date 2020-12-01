@@ -5656,25 +5656,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\81960\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\帅举\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+      "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
       "projectName": "CodeShuai.MySql",
-      "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
-      "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\obj\\",
+      "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+      "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5687,8 +5682,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
-              "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
+            "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+              "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
             }
           }
         }

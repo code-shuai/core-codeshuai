@@ -10,14 +10,21 @@ using Newtonsoft.Json;
 
 namespace CodeShuai.WebApi.Controllers
 {
+    [Route("[Controller]/[Action]")]
     public class ValuesController : Controller
     {
 
-        Helper h = new Helper();
+        PoetryHelper h = new PoetryHelper();
         [HttpPost]
-        public int AddPoetry(string json)
+        public int InsertAuthorList(Author author)
         {
-
+            //JsonConvert.DeserializeObject<List<Author>>(JsonConvert.SerializeObject(json))
+            int a = h.InsertAuthorList(author);
+            return a;
+        }
+        public List<Author> Show()
+        {
+            return h.GetAuthors();
         }
     }
 }

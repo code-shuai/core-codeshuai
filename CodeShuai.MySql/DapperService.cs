@@ -64,6 +64,13 @@ namespace CodeShuai.MySql
                 return conn.Execute(sql, t);
             }
         }
+        public static int ExcuteSqlString(string sql)
+        {
+            using (IDbConnection conn = MySqlConnection())
+            {
+                return conn.Execute(sql);
+            }
+        }
 
 
 

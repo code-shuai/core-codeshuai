@@ -1,0 +1,20 @@
+{
+  "loginName": "sysAdmin",
+  "loginDB": {
+    "server": "192.168.10.1",
+    "uid": "sa",
+    "pwd": "123456"
+  },
+  "JAVA_HOME": "123",
+  "plist": [ 11, 12, 13, 14, 15 ],
+  "hlist": [
+    {
+      "server1name": "abc",
+      "server2port": "192.168.20.11"
+    },
+    {
+      "server1name": "bbc",
+      "server2port": "192.1678.11.15"
+    }
+  ]
+}
