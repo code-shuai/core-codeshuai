@@ -6,10 +6,30 @@
     <script src="jquery/jquery.js"></script>
     <script>
         $(function () {
-            $.getJSON("/poetry/mengxue/sanzijing-traditional.json", function (data) {
+
+            $.getJSON("/poetry/json/authors.song.json", function (data) {
                 console.log(data);
-                data = JSON.stringify(data);
-                console.log(data);
+                //var temp = 0;
+                //for (var i = 8000; i < data.length; i++) {
+
+                //    data[i].Desc = data[i].Name;
+                //    $.ajax({
+                //        url: "/Values/InsertAuthorList"
+                //        , data: data[i]
+                //        , dataType: "json"
+                //        , async: true
+                //        , type: "post"
+                //    }).done(function (retData) {
+                //        if (retData == 1) {
+                //            temp++;
+                //            console.log(temp);
+                //            //console.log(retData);
+                //        } else {
+                //            console.log(retData);
+                //        }
+                //    })
+                //}
+
             })
         })
     </script>
