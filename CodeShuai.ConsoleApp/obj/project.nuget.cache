@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "MdQQ0Bp5F8TPXghkCd1QIvXP8M/PfqD6EAvr0nrWxtUJHi9bJYnGbhIPby2QX1d1hYYdun/0I/CEI7+n9XPYiQ==",
+  "dgSpecHash": "a0cwrDn1lCkGTubys4iaOVT8wza6OqCaTRnuWiGMV7+LOJETNxs9njZWsFiV6SQSiYQ08wmzJJL9c7rhfpEnzQ==",
   "success": true,
-  "projectFilePath": "D:\\Code\\core_codeshuai\\CodeShuai.ConsoleApp\\CodeShuai.ConsoleApp.csproj",
+  "projectFilePath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.ConsoleApp\\CodeShuai.ConsoleApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.10\\microsoft.extensions.configuration.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.10\\microsoft.extensions.configuration.abstractions.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.10\\microsoft.extensions.configuration.fileextensions.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.10\\microsoft.extensions.configuration.json.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.10\\microsoft.extensions.fileproviders.abstractions.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.10\\microsoft.extensions.fileproviders.physical.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.10\\microsoft.extensions.filesystemglobbing.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.10\\microsoft.extensions.primitives.3.1.10.nupkg.sha512",
-    "C:\\Users\\帅举\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.10\\microsoft.extensions.configuration.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.10\\microsoft.extensions.configuration.abstractions.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.10\\microsoft.extensions.configuration.fileextensions.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.10\\microsoft.extensions.configuration.json.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.10\\microsoft.extensions.fileproviders.abstractions.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.10\\microsoft.extensions.fileproviders.physical.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.10\\microsoft.extensions.filesystemglobbing.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.10\\microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+    "C:\\Users\\81960\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\core_codeshuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj": {}
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
         "projectName": "CodeShuai.BLL",
-        "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
-        "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\obj\\",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -28,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
-                "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj"
               },
-              "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
-                "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj"
               }
             }
           }
@@ -65,18 +69,22 @@
         }
       }
     },
-    "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
         "projectName": "CodeShuai.Models",
-        "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
-        "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\obj\\",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -119,18 +127,22 @@
         }
       }
     },
-    "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
         "projectName": "CodeShuai.MySql",
-        "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
-        "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.MySql\\obj\\",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\CodeShuai.MySql.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.MySql\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -143,8 +155,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
-                "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
               }
             }
           }
@@ -187,18 +199,22 @@
         }
       }
     },
-    "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
         "projectName": "CodeShuai.SQLServer",
-        "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
-        "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\obj\\",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -241,18 +257,22 @@
         }
       }
     },
-    "D:\\Code\\core_codeshuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj": {
+    "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj",
+        "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj",
         "projectName": "CodeShuai.WebApi",
-        "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj",
-        "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.WebApi\\obj\\",
+        "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\CodeShuai.WebApi.csproj",
+        "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -265,11 +285,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
-                "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
               },
-              "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
-                "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
+              "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj": {
+                "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Models\\CodeShuai.Models.csproj"
               }
             }
           }

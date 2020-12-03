@@ -22,6 +22,14 @@ namespace CodeShuai.WebApi.Controllers
             int a = h.InsertAuthorList(author);
             return a;
         }
+        [HttpPost]
+        public int InsertPoetryParagraph(PoetryParagraph poetryParagraph)
+        {
+            //JsonConvert.DeserializeObject<List<Author>>(JsonConvert.SerializeObject(json))
+            int a = h.InsertPoetryParagraph(poetryParagraph);
+            return a;
+        }
+
         public List<Author> Show()
         {
             return h.GetAuthors();

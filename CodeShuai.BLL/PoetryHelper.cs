@@ -27,5 +27,10 @@ namespace CodeShuai.BLL
         {
             return DapperService<Author>.QuerySqlString("select * from author");
         }
+
+        public int InsertPoetryParagraph(PoetryParagraph poetryParagraph)
+        {
+            return DapperService<PoetryParagraph>.ExcuteSqlString("insert into poetryparagraph (TaskID,Number,Paragraph) values(@TaskID,@Number,@Paragraph)", poetryParagraph);
+        }
     }
 }

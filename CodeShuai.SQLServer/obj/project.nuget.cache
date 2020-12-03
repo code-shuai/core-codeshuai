@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rKp3O0N/l26pWwgF8W9MBkewenaLMekXqCOyKrV8g2GWXwnV00qMTbSWIvz1HhHarxFRYMqun0kL5SLcFk3xrg==",
+  "dgSpecHash": "Qi9SspI5GQUsodMP5XZ/xA7vBIR7rcPzFIBW5534lminzBjWyOxiK45HWWDhXpngnNtxi5g7gNPTpJbMTYiNUA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\core_codeshuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
+  "projectFilePath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.SQLServer\\CodeShuai.SQLServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

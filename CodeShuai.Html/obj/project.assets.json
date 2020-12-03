@@ -5708,20 +5708,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\帅举\\.nuget\\packages\\": {}
+    "C:\\Users\\81960\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\core_codeshuai\\CodeShuai.Html\\CodeShuai.Html.csproj",
+      "projectUniqueName": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Html\\CodeShuai.Html.csproj",
       "projectName": "CodeShuai.Html",
-      "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.Html\\CodeShuai.Html.csproj",
-      "packagesPath": "C:\\Users\\帅举\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\core_codeshuai\\CodeShuai.Html\\obj\\",
+      "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Html\\CodeShuai.Html.csproj",
+      "packagesPath": "C:\\Users\\81960\\.nuget\\packages\\",
+      "outputPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.Html\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\帅举\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\81960\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5734,8 +5739,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
-              "projectPath": "D:\\Code\\core_codeshuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
+            "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj": {
+              "projectPath": "E:\\Code\\DotNet\\Core_CodeShuai\\CodeShuai.BLL\\CodeShuai.BLL.csproj"
             }
           }
         }
